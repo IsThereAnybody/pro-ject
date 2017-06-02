@@ -1,5 +1,6 @@
 # pro-ject
 Symulacja podróży autostopem
+
 Gra będzie polegała na wyjeździe do jakiegoś europejskiego miasta tylko dzięki życzliwości innych ludzi i ich darmowej podwózce.
 Startujemy z Wrocławia, mamy do wyboru kilka kierunków. Posiadamy pewną kwotę na początku wyjazdu, którą musimy mądrze dysponować.
 Możemy zatrzymać się w miejscu docelowym, podróżować dalej lub zrezygnować wcześniej z podróży. W każdym kraju będzie inna szansa
