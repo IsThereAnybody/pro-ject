@@ -179,7 +179,7 @@ int main()
 	City Odessa("Odessa", 46, 30, Ukraina);
 	City Sewastopol("Sewastopol", 46, 33, Ukraina);
 	City Donieck("Donieck", 48, 37, Ukraina);
-	City Charków("Charków", 56, 36, Ukraina);
+	City CharkÃ³w("CharkÃ³w", 56, 36, Ukraina);
 
 	//Wegry//
 	City Budapeszt("Budapeszt", 47, 19, Wegry);
@@ -325,7 +325,7 @@ int main()
 				{
 					for (int j = 0; j < NowePanstwa[i].city.size(); j++)
 					{
-						double z = sqrt(((A.getPositionA()) - (NowePanstwa[i].city[j].getPositionA()))*((A.getPositionA()) - (NowePanstwa[i].city[j].getPositionA()))) + sqrt(((A.getPositionB()) - (NowePanstwa[i].city[j].getPositionB()))*((A.getPositionB()) - (NowePanstwa[i].city[j].getPositionB()))); cout << "Takie z: " << z << endl;
+						double z = sqrt(((A.getPositionA()) - (NowePanstwa[i].city[j].getPositionA()))*((A.getPositionA()) - (NowePanstwa[i].city[j].getPositionA()))) + sqrt(((A.getPositionB()) - (NowePanstwa[i].city[j].getPositionB()))*((A.getPositionB()) - (NowePanstwa[i].city[j].getPositionB())));
 					    if (z < 7 && z > 0)
 						{
 							NoweMiasta.push_back(NowePanstwa[i].city[j]); count++;
