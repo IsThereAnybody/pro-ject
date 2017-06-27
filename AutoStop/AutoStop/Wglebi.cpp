@@ -66,7 +66,6 @@ void Stoper::hitch(City &Obj, int stoper)
 
 			for (int i = 0; i < a-z; i++)
 			{
-				cout << T[i]<<endl;
 				if (h == T[i])
 				{
 					cityName = Obj.getName();
